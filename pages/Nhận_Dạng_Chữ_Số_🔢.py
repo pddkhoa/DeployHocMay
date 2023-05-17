@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import ImageTk, Image
+from PIL import Image
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
