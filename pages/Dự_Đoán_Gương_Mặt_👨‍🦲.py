@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",)
 st.title('NHẬN DẠNG GƯƠNG MẶT 👨‍🦲👨‍🦲👨‍🦲')
 FRAME_WINDOW = st.image([])
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(cv.CAP_V4L)
 
 if 'stop' not in st.session_state:
     st.session_state.stop = False
